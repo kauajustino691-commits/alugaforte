@@ -40,7 +40,10 @@ Kauã Justino da Silva
 Estudante de Gestão da Tecnologia da Informação, em formação na área de tecnologia.
 Este repositório apresenta o projeto acadêmico desenvolvido em equipe. A documentação deste portfólio foi organizada individualmente; isso não significa autoria exclusiva de todo o projeto ou do código coletivo.
 
-## Imagens do projeto
+## 🖥️ Visualização do projeto
 
-![Página inicial](<img width="1600" height="524" alt="WhatsApp Image 2026-10-19 at 13 48 08" src="https://github.com/user-attachments/assets/9ca75948-b141-4f76-b224-d649eb486cc5" />
-)
+### Página inicial
+![Página inicial do AlugaForte](Imagem%20do%20WhatsApp%20em%2019-10-2026%20%C3%A0s%2013.48.08.jpeg)
+
+### Simulação de aluguel
+![Simulação de aluguel](Imagem%20do%20WhatsApp%202026-10-19%20em%2013.48.08%20(1).jpeg)
