@@ -43,7 +43,7 @@ Este repositório apresenta o projeto acadêmico desenvolvido em equipe. A docum
 ## 🖥️ Visualização do projeto
 
 ### Página inicial
-![Página inicial do AlugaForte]()
+![Página inicial do AlugaForte](WhatsApp Image 2026-10-19 at 13.48.08.jpeg)
 
 ### Simulação de aluguel
 ![Simulação de aluguel]()
