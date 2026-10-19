@@ -42,4 +42,5 @@ Este repositório apresenta o projeto acadêmico desenvolvido em equipe. A docum
 
 ## Imagens do projeto
 
-![Página inicial](foto1.png)
+![Página inicial](<img width="1600" height="524" alt="WhatsApp Image 2026-10-19 at 13 48 08" src="https://github.com/user-attachments/assets/9ca75948-b141-4f76-b224-d649eb486cc5" />
+)
