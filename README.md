@@ -1,6 +1,8 @@
 Projeto acadêmico desenvolvido em equipe com o objetivo de apresentar um protótipo web para facilitar a locação de ferramentas e maquinários, com simulação de aluguel, estimativa de frete e regras de seguro integrado.
+
 🌐 **Acesse o projeto:** [AlugaForte — Plataforma de Aluguel de Ferramentas](https://alugaforte.netlify.app/)
 descrição:
+
 O AlugaForte propõe uma experiência digital em que o usuário pode consultar ferramentas e maquinários e simular condições de locação. O projeto reúne desenvolvimento web e conceitos de análise de sistemas e organização ágil.
 
 
