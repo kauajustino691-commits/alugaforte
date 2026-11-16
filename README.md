@@ -1,45 +1,73 @@
-Projeto acadêmico desenvolvido em equipe com o objetivo de apresentar um protótipo web para facilitar a locação de ferramentas e maquinários, com simulação de aluguel, estimativa de frete e regras de seguro integrado.
+# 🛠️ AlugaForte
 
-🌐 **Acesse o projeto:** [AlugaForte — Plataforma de Aluguel de Ferramentas](https://alugaforte.netlify.app/)
+Plataforma digital para locação de ferramentas e maquinários com simulação de aluguel, estimativa de frete e cálculo de seguro integrado.
 
+🔗 **Protótipo publicado:** [Acessar AlugaForte](https://alugaforte.netlify.app/)
 
-descrição:
-O AlugaForte propõe uma experiência digital em que o usuário pode consultar ferramentas e maquinários e simular condições de locação. O projeto reúne desenvolvimento web e conceitos de análise de sistemas e organização ágil.
+---
 
+## 📋 Visão Geral
 
-Funcionalidades:
-Catálogo de ferramentas e maquinários.
-Simulação do valor do aluguel.
-Estimativa de frete.
-Aplicação de regras de seguro conforme o valor diário.
-Interface para demonstrar o fluxo de locação.
+O **AlugaForte** foi idealizado para simplificar o processo de locação de equipamentos, tornando as etapas de consulta, cálculo de valores e cobertura de seguro mais transparentes para o cliente. Além do desenvolvimento front-end, o projeto serviu como exercício prático de análise de requisitos, definição de MVP, histórias de usuário e modelagem de processos.
 
-Tecnologias utilizadas
-HTML — estrutura das páginas.
-CSS — estilização e apresentação visual.
-JavaScript — interações e regras de cálculo.
-Netlify — publicação do protótipo.
+> **Aviso:** Este projeto é um protótipo demonstrativo de portfólio. As etapas de pagamento e contratação simulam o fluxo de experiência do usuário e não realizam transações financeiras ou reservas reais.
 
-Regras de seguro documentadas
-Abaixo de R$ 500,00 por dia: seguro opcional de 4%.
-De R$ 500,00 até R$ 999,99 por dia: seguro obrigatório de 4%.
-A partir de R$ 1.000,00 por dia: seguro obrigatório de 7%.
-Conhecimentos aplicados
+---
 
-Desenvolvimento de interfaces web.
-Organização de funcionalidades e regras de negócio.
-Análise de requisitos e definição de escopo.
-Conceitos de metodologias ágeis.
-Publicação de aplicações web.
+## ⚙️ Funcionalidades
 
- Melhorias futuras
-Aprimorar a responsividade e a acessibilidade.
-Realizar testes das regras de cálculo.
-Implementar persistência de dados e gestão de inventário.
-Estudar autenticação e integração segura de pagamentos.
+- **Catálogo de equipamentos:** Exibição organizada de ferramentas e maquinários disponíveis.
+- **Simulação de locação:** Cálculo dinâmico baseado na diária do equipamento e período escolhido.
+- **Estimativa de frete:** Simulação de custos de entrega.
+- **Cálculo automático de seguro:** Aplicação de regras de negócio conforme o valor da diária.
 
-Autor da documentação
-Kauã Justino da Silva
-Estudante de Gestão da Tecnologia da Informação, em formação na área de tecnologia.
-Este repositório apresenta o projeto acadêmico desenvolvido em equipe. A documentação deste portfólio foi organizada individualmente; isso não significa autoria exclusiva de todo o projeto ou do código coletivo.
+---
 
+## 🛡️ Regras de Negócio (Seguro)
+
+A lógica de cálculo do seguro segue as seguintes faixas de valor diário do equipamento:
+
+| Valor Diário do Equipamento | Modalidade de Seguro | Alíquota Aplicada |
+| :--- | :--- | :---: |
+| Inferior a R$ 500,00 | Opcional | **4%** |
+| De R$ 500,00 até R$ 999,99 | Obrigatório | **4%** |
+| Igual ou superior a R$ 1.000,00 | Obrigatório | **7%** |
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- **HTML5:** Estruturação semântica das páginas.
+- **CSS3:** Estilização, layout e organização visual.
+- **JavaScript:** Interatividade, manipulação do DOM e regras de cálculo.
+- **Netlify:** Hospedagem e deploy contínuo do protótipo.
+
+---
+
+## 📈 Próximas Melhorias
+
+- [ ] Revisar acessibilidade (WCAG), responsividade e usabilidade.
+- [ ] Adicionar validação robusta de entradas e testes automatizados para as regras de cálculo.
+- [ ] Implementar autenticação de usuários, banco de dados e controle de inventário.
+- [ ] Integrar gateway de pagamento real em ambiente seguro.
+
+---
+
+## 👤 Autoria
+
+Documentação e apresentação de portfólio organizadas por **Kauã Justino da Silva** (2026).  
+*Nota: O projeto original foi concebido e desenvolvido em equipe; este repositório tem caráter de demonstração individual para portfólio.*
+```[cite: 2]
+
+---
+
+### Passo 4: Adicionar o link do site na lateral do repositório (Dica extra)
+
+1. Na página inicial do seu repositório no GitHub, clique no ícone de engrenagem ao lado de **About** (canto superior direito).
+2. No campo **Website**, cole: `[https://alugaforte.netlify.app/](https://alugaforte.netlify.app/)`[cite: 2]
+3. Em **Topics**, adicione tags como `html`, `css`, `javascript`, `portfolio`, `netlify`.
+4. Clique em **Save changes**.
+
+---
+
+Você gostaria de adicionar capturas de tela (prints) do site ao `README.md` (caso consiga reenviar as imagens separadamente) ou precisa de ajuda para subir outros projetos?
