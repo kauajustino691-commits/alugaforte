@@ -23,15 +23,11 @@ O **AlugaForte** foi idealizado para simplificar o processo de locação de equi
 
 ---
 
-## 🛡️ Regras de Negócio (Seguro)
+## 🛡️ Regras de Negócio (Seguro e Frete)
 
-A lógica de cálculo do seguro segue as seguintes faixas de valor diário do equipamento:
-
-| Valor Diário do Equipamento | Modalidade de Seguro | Alíquota Aplicada |
-| :--- | :--- | :---: |
-| Inferior a R$ 500,00 | Opcional | **4%** |
-| De R$ 500,00 até R$ 999,99 | Obrigatório | **4%** |
-| Igual ou superior a R$ 1.000,00 | Obrigatório | **7%** |
+- **Implementação atual no protótipo (`index.html`):** Equipamentos com diária superior a **R$ 500,00** possuem seguro obrigatório no valor fixo de **R$ 50,00**. Para diárias de até R$ 500,00, o seguro não é cobrado na simulação.
+- **Estimativa de frete:** Valor base de **R$ 35,00**, recalculado dinamicamente entre **R$ 25,00 e R$ 100,00** conforme os dígitos finais do CEP informado.
+- **Escopo ampliado (Documentação):** Para evolução comercial da plataforma, foram especificadas faixas percentuais progressivas (seguro opcional de 4% abaixo de R$ 500,00; obrigatório de 4% entre R$ 500,00 e R$ 999,99; e obrigatório de 7% a partir de R$ 1.000,00).
 
 ---
 
